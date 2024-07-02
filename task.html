@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .na{
+        width: 100vw;
+        height: 100px;
+        background-color: brown;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .na a{
+        text-decoration: none;
+        font-size: 25px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: black;
+        font-weight: bold;
+        margin: 10px;
+    }
+    .h{
+        width: 100vw;
+        height: 500px;
+        margin-top: 10px;
+    }
+    h1{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgba(215, 169, 3, 0.898);
+        font-size: 40px;
+    }
+    .ab{
+        width: 100vw;
+        height: 300px;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: rgb(226, 121, 56);
+    }
+    .ab .box{
+        width: 250px;
+        height: 250px;
+        background-color: rgb(179, 129, 137);
+    
+    }
+    @media (max-width:500px) and (min-width:300px){
+        .na{
+            height: 100px;
+            flex-direction: column;  
+            align-items: center;        
+        }
+        .na a{
+            font-size: 25px;
+            margin: 0px;   
+        }
+        .h{
+            height: 280px;
+        }
+        .h img{
+            width: 500px;
+            height: 250px;
+        }
+        .ab{
+            height: 1400px;   
+            flex-direction: column;
+            justify-content:space-evenly;
+            align-items: center;
+            font-size: 10px;
+        }
+        h1{
+            text-align: left;
+            font-size: 25px;
+        }
+        .box img{
+            width: 300px;
+            height: 250px;
+        }
+        .ab .box{
+            height: 400px;
+            width: 300px;
+            font-size: 20px;
+        }
+        
+    }
+</style>
+<body>
+    <nav>
+        <div class="na">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+    </div>
+    </nav>
+    <div class="h">
+        <img src="Images/mountains-190055_1280.jpg" alt="homepage" width="100%" height="500px">
+    </div>
+    <h1>ABOUT</h1>
+    <div class="ab">
+        
+        <div class="box"><img src="Images/woman-3640935_1280.jpg" alt="summer" width="250px" height="130px">
+            Summer is the hottest and brightest of the four temperate seasons, occurring after spring and before autumn. </div>
+        <div class="box"><img src="Images/glass-window-1845534_1280.jpg" alt="monsoon" width="250px" height="130px">
+            A rainy season (also known as a wet season) is the time of year where the majority of a country's or region's annual precipitation occurs.</div>
+        <div class="box"><img src="Images/wintry-2993370_1280.jpg" alt="winter" width="250px" height="130px">
+            Winter is the coldest and darkest season of the year in polar and temperate climates. It occurs after autumn and before spring.</div>
+    </div>
+</body>
+</html>
